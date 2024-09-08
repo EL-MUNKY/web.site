@@ -6,10 +6,9 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-/*Estilos para el fondo con la img*/
+/*Estilos para el fondo del logo*/
 .main_container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-    url("img/2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
 }
 /*Estilos para el contenedor de la navegacion*/
 .container {
@@ -182,6 +181,11 @@ main {
   filter: grayscale(100%);
 }
 footer {
-  grid-area: footer;
   background-color: black;
+  text-align: center;
+  padding: 1rem;
+}
+footer span{
+  color: aliceblue;
+  font-size: 10px;
 }
